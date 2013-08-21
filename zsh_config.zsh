@@ -29,7 +29,6 @@ cdpath=(~)
 
 for i in $mods
 do
-	echo $i
     if [ -f $i ]; then
     . $i
     fi
